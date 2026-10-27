@@ -21,6 +21,5 @@ This project was built to practice API handling and DOM manipulation. Currently 
 ## Developer
 **Muhammad Yaseen**
 - GitHub: https://github.com/Codewithyaseen
-=======
 # Weather_App
 A real-time Weather Application built using HTML, CSS, JavaScript, and OpenWeather API.
