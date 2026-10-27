@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+}
+
+body{
+    background-color: rgb(18, 100, 100);
+}
+.heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 2.5rem;
+    top: 3%;
+}
+
+.sub-container{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    justify-content: center;
+    position: relative;
+}
+.weather-card{
+    max-width: 300px;
+    width: 90%;
+    margin-top: 3%;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(0, 255, 255),rgb(6, 6, 253));
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-card input{
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+
+.weather-card .searchBtn{
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.weather-card .searchBtn:hover{
+  background-color: black;
+  color: white;
+}
+
+.weather-update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.city-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.city-sec img{
+    width: 100px;
+    height: 100px;
+}
+
+.weather-update .city{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.weather-update .city-sec .centigrade{
+    font-size: 25px;
+    margin-bottom: 3px;
+    color: white;
+}
+
+.weather-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    position: relative;
+    grid-gap: 40px;
+}
+.weather-info .fa-solid{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.humidity-info p{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+}
+.wind-info p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.humidity-info{
+    padding-left: 20%;
+}
+.weather-info, .weather-update{
+    display: none;
+} 
+
+.error{
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: white;
+    display: none;
+}
+
+/* ----------------End of the code-----------*/

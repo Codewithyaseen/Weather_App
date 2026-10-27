@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Search Icon Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- font awesome cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section>
+        <h1 class="heading">Weather App</h1>
+        <div class="sub-container">
+            <div class="weather-card">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter city name">
+                    <button class="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="error">
+                    <p>Invalid city name</p>
+                </div>
+                <div class="weather-update">
+                    <div class="city-sec">
+                        <img src="" alt="">
+                        <h2 class="centigrade"></h2>
+                        <h2 class="city"></h2> 
+                    </div>
+                </div>
+                <div class="weather-info">
+                    <div class="humidity-info">
+                        <i class="fa-solid fa-water"></i>
+                        <p class="temp"></p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="wind-info">
+                        <i class="fa-solid fa-wind"></i>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
